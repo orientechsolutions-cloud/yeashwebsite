@@ -1,0 +1,36 @@
+<swiper-container
+  class="hero-swiper"
+  [ngStyle]="height ? {'height': height} : {}"
+  autoplay="true"
+  autoplay-delay="3500"
+  loop="true"
+  effect="fade"
+  fade-effect-cross-fade="true"
+  speed="800"
+  pagination="true"
+>
+  <swiper-slide *ngFor="let slide of slides()">
+    <div class="hero-slide" [style.backgroundImage]="'url(' + slide.image + ')'">
+      <div class="hero-content text-start">
+        @if(slide.title != undefined){
+          <h1>{{ slide.title }}</h1>
+
+        }
+        @if(slide.title != undefined){
+
+          <p>{{ slide.subtitle }}</p>
+        }
+        @if(slide.showBtns){
+        <div class="btn-box">
+          <a routerLink="/products/chemical-products/reactors" class="btn btn-primary px-4 py-2 me-3">
+            Explore Products
+          </a>
+          <a routerLink="/contact-us" class="btn btn-outline-light px-4 py-2">
+            Contact Us
+          </a>
+        </div>
+      }
+      </div>
+    </div>
+  </swiper-slide>
+</swiper-container>

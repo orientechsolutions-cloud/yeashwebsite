@@ -1,0 +1,88 @@
+<!-- Footer -->
+<div class="row mt-3 p-3 pb-0 d-flex flex-column flex-md-row">
+    <div
+        class="col-md-4  footer-logo-section d-flex pos-relative flex-column p-3 pt-0 pb-0 text-center bg-primary border-radius-top text-white">
+        <a class="footer-brand" routerLink="/">
+            <img src="assets/images/logo.png" alt="Yash Engineering" />
+        </a>
+        <p class="mt-3 footer-quote">
+            Yash Engineering Company is a leading manufacturer and exporter of high-quality industrial products,
+            specializing in chemical and mechanical engineering solutions.
+    </div>
+    <div class="col-md-8 d-flex flex-column bg-dark ps pb-0 border-radius-top">
+        <div class="row pt-3 pb-3 foot-top-links">
+            <div class="col-md-4" *ngFor="let link of topNavLinks; let i = index" 
+                [ngClass]="{'ms-lg-3': i === topNavLinks.length - 1}"
+                [hidden]="link.label === 'Get A Quote'">
+                <a [routerLink]="link.routerLink">
+                    {{ link.label }}
+                </a>
+            </div>
+          
+        </div>
+        <div class="row pt-3 pb-3 border-top list-menu">
+            <div class="col-md-4" *ngFor="let section of megaMenuSections;">
+                <h6>{{ section.title }}</h6>
+                <ul class="list-unstyled">
+                    <li *ngFor="let link of section.links;">
+                        <a [routerLink]="link.routerLink" class="mega-item">
+                            {{ link.label }}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="col-md-4">
+                <h6>Chemical Products</h6>
+                <ul class="list-unstyled">
+                    <li><a routerLink="/pumps">Reactors</a></li>
+                    <li><a routerLink="/pumps">Receiver </a></li>
+                    <li><a routerLink="/pumps">Storage tanks </a></li>
+                    <li><a routerLink="/pumps">Mixer</a></li>
+                    <li><a routerLink="/pumps">Blender</a></li>
+                    <li><a routerLink="/pumps">Heat Exchangers</a></li>
+                    <li><a routerLink="/pumps">Condenser </a></li>
+                    <li><a routerLink="/pumps">Chimney </a></li>
+                    <li><a routerLink="/pumps">Distillation columns </a></li>
+                    <li><a routerLink="/pumps">Reboilers</a></li>
+                    <li><a routerLink="/pumps">Centrifuges</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h6>CNG casacde</h6>
+                <ul class="list-unstyled">
+                    <li><a routerLink="/valves">Type-I</a></li>
+                    <li><a routerLink="/pipes">Type-IV</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h6>Mechanical Products</h6>
+                <ul class="list-unstyled">
+                    <li><a routerLink="/valves">Valves</a></li>
+                    <li><a routerLink="/pipes">Pipes & Fittings</a></li>
+                    <li><a routerLink="/machines">Machinery Tools</a></li>
+                </ul>
+            </div> -->
+        </div>
+        <div class="row pt-3 pb-3 border-top">
+            <div class="col-md-4">
+                <h6>Email:</h6>
+                <a href="mailto:lohar66@rediffmail.com" target="_blank"
+                    rel="noopener noreferrer">lohar66@rediffmail.com</a>
+            </div>
+            <div class="col-md-4">
+                <h6>Phone:</h6>
+                +91 98211 12345 <br />
+            </div>
+            <div class="col-md-4">
+                <h6>Address:</h6>
+                PLOT NO. W-131,70 BANGLOW.TARAPUR.MIDC. BOISAR-401506 Palghar, Maharashtra, India
+            </div>
+        </div>
+        <div class="row pt-3 pb-3 border-top">
+
+            <div class="col-md-12 text-center copyright-text">
+                copyright © 2024 Yash Engineering. All rights reserved.
+            </div>
+        </div>
+    </div>
+</div>

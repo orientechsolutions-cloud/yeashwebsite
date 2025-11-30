@@ -1,0 +1,32 @@
+.quote-content{
+    h2{
+        text-transform: uppercase;
+    }
+    @media (max-width: 820px) {
+        padding: 2rem;
+     }
+}
+.quote-form {
+    
+    padding: 30px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+    width: 95%;
+    .form-group {
+        margin-bottom: 15px;
+        label {
+            font-weight: bold;
+        }
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+            &:focus {
+                outline: none;
+                border-color: #003253;
+            }
+        }
+    }
+}

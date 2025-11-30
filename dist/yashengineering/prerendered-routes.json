@@ -1,0 +1,16 @@
+{
+  "routes": {
+    "/": {},
+    "/about-us": {},
+    "/contact-us": {},
+    "/products/chemical-products/centrifuges": {},
+    "/products/chemical-products/chimney": {},
+    "/products/chemical-products/condenser": {},
+    "/products/chemical-products/distillationcolumns": {},
+    "/products/chemical-products/heatexchangers": {},
+    "/products/chemical-products/mixer-and-blender": {},
+    "/products/chemical-products/reactors": {},
+    "/products/chemical-products/reboilers": {},
+    "/products/chemical-products/receiver-and-storage": {}
+  }
+}

@@ -1,0 +1,17 @@
+<div class="sidebar-wrap bg-dark p-4">
+    <div class="title-sidebar">
+        <h3>All Products</h3>
+        <button class="hamburger"  (click)="toggleSidebar()"><span [class.open]="sidebarOpen()"></span></button>
+    </div>
+    <div class="sidebar-full" [class.active]="sidebarOpen()" *ngFor="let section of megaMenuSections;">
+        <h6 class="fw-bold text-white">{{ section.title }}</h6>
+        <ul class="list-unstyled">
+            <li *ngFor="let link of section.links;">
+                <a [routerLink]="link.routerLink" routerLinkActive="active-link" class="d-block py-1 text-white">
+                    {{ link.label }}
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>

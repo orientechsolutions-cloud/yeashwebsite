@@ -1,0 +1,96 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-0 py-md-3 shadow-sm">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold" routerLink="/">
+      <img src="assets/images/logo.png" alt="Yash Engineering" />
+    </a>
+
+    <!-- Mobile Toggle -->
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+      (click)="toggleMainMenu()">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <button class="hamburger" (click)="toggleMainMenu()">
+      <span [class.open]="isMainMenuOpen"></span>
+    </button>
+
+    <div class="main-nav" id="navMenu" [class.open]="isMainMenuOpen">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+
+
+        <!-- Home (from TOP_NAV_LINKS[0]) if you want it separate -->
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">Home</a>
+        </li>
+
+        <!-- PRODUCTS -->
+        <li class="nav-item dropdown position-static" (mouseenter)="showMenu()" (mouseleave)="hideMenu()">
+
+          <a class="nav-link dropdown-toggle" (click)="toggleMegaMenu()" style="cursor:pointer;">Products</a>
+
+          <!-- Mega Menu -->
+          <div class="mega-menu" [class.open]="isMegaMenuOpen">
+            <div class="container py-4 d-flex flex-column flex-lg-row">
+
+              <!-- Section 1: Images -->
+              <div class="col-lg-3 mb-3 mb-lg-0 border-bottom border-lg-end pb-3 pb-lg-0 pe-lg-4">
+                <h6 class="fw-bold mb-3">Download Catlogue</h6>
+                <div class="product-img-box">
+                  <div class="div-sec-2" *ngFor="let item of catalogueItems">
+                    <a href="javascript:;">
+                      <img [src]="item.image" [alt]="item.alt">
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sections from MEGA_MENU_SECTIONS -->
+              <div class="col-lg-3 mt-3 mt-lg-0" *ngFor="let section of megaMenuSections;" [ngClass]="{ 'px-lg-4': section.title === 'Chemical Products',
+                                'ps-lg-4': section.title !== 'Chemical Products' }">
+                <h6 class="fw-bold text-dark mb-3">{{ section.title }}</h6>
+                <ul class="list-unstyled">
+                  <li *ngFor="let link of section.links;">
+                    <a [routerLink]="link.routerLink" class="mega-item">
+                      {{ link.label }}
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+        </li>
+        <!-- Other top-level links from TOP_NAV_LINKS (skip Home & Quote if handled separately) -->
+        <li class="nav-item" *ngFor="let link of topNavLinks; let i = index"
+          [ngClass]="{'ms-lg-3': i === topNavLinks.length - 1}"
+          [hidden]="link.label === 'Home' && i === 0 || link.label === 'Get A Quote'">
+
+          <a class="nav-link" [routerLink]="link.routerLink">
+            {{ link.label }}
+          </a>
+        </li>
+
+        <!-- Get A Quote button -->
+        <li class="nav-item">
+          <a class="btn btn-primary px-3 mt-3 mt-lg-0" routerLink="/quote">Get A Quote</a>
+        </li>
+
+
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="about-us">About Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contact-us">Contact Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="btn btn-primary px-3 mt-3 mt-lg-0" routerLink="/quote">Get A Quote</a>
+        </li> -->
+
+      </ul>
+    </div>
+  </div>
+</nav>

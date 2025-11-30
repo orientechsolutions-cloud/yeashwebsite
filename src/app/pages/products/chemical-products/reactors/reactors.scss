@@ -1,0 +1,21 @@
+// .side-bar-column{
+//      position: sticky;
+//   top: 400px; /* adjust based on your header/banner height */
+//   height: max-content;
+// }
+.row {
+  align-items: flex-start;
+}
+
+.sidebar-sticky-wrapper {
+  position: sticky;
+  top: 120px;
+  height: max-content;
+  z-index: 5;
+}
+
+
+.col-md-3 {
+  overflow: visible !important;
+}
+

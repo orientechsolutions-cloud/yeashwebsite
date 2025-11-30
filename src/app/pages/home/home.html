@@ -1,0 +1,100 @@
+<div class="container-fluid p-0">
+    <app-hero-carousel [slidesSource]="slides" height="80vh"></app-hero-carousel>
+    <div class="row hero-wrapper">
+        <div class="col-md-6 hero-container" [appAnimateOnScroll]="'in-view'"  [rootMargin]="'0px 0px -20% 0px'"
+             [threshold]="0.08"> 
+            <div class="hero-left">
+                <!-- Experience text -->
+                <div class="experience-badge">
+                    40+
+                    <span>Year Of<br />Experience</span>
+                </div>
+                <!-- Top small image -->
+                <div class="hero-top-img">
+                    <img src="assets/images/why-choose-us-5.png" alt="Robotic arm in factory" />
+                </div>
+
+                <!-- Main big image -->
+                <div class="hero-main-img">
+                    <img src="assets/images/home-about.png" alt="Engineer at control panel" />
+                </div>
+
+
+            </div>
+        </div>
+        <div class="col-md-6 py-4 px-4" 
+             [appAnimateOnScroll]="'in-view'"
+             [once]="true">
+            <h1>ABOUT US</h1>
+            <p>
+                Yash Engineering Company, founded by Mr. Bapu Krishna Lohar, is a trusted name in engineering and steel
+                fabrication based in Boisar MIDC, Maharashtra. With over 40 years of industry experience, we specialize
+                in custom steel fabrication, industrial manufacturing, and project-based engineering solutions for the
+                construction, power, and chemical sectors.
+            </p>
+            <p>
+                Backed by a team of skilled professionals, we deliver high-quality, durable, and precisely engineered
+                structures that meet the highest standards of safety and performance. Our commitment to quality
+                workmanship, timely delivery, and client satisfaction has made us one of the most reliable fabrication
+                companies in Maharashtra.
+            </p>
+            <p class="quote-text">
+                At Yash Engineering Company, we build more than structures — we build trust, reliability, and lasting
+                partnerships.
+            </p>
+            <div class="btn-box mt-3">
+                <a routerLink="/about" class="btn btn-primary px-4 py-2 me-3">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row section-padding section-bg-dark">
+        <div class="col-md-12"  [appAnimateOnScroll]="'in-view'"  [rootMargin]="'0px 0px -20% 0px'"
+             [threshold]="0.08">
+            <div class="col-division-4 title-sec p-3 top-radius">
+                <h1>Our Products</h1>
+            </div>
+            <div class="col-division-4 product-section product-1">
+                <h3>BW SEAMLESS & WELDED FITTINGS</h3>
+            </div>
+            <div class="col-division-4 product-section product-2">
+                <h3>Distillation columns</h3>
+            </div>
+            <div class="col-division-4 product-section product-3">
+                <h3>FLANGES</h3>
+            </div>
+            <div class="col-division-4 product-section product-4">
+                <h3>Reboilers</h3>
+            </div>
+            <div class="col-division-4 product-section product-5">
+                <h3>FITTINGS</h3>
+            </div>
+            <div class="col-division-4 product-section product-6">
+                <h3>Mixer</h3>
+            </div>
+            <div class="col-division-4 product-section product-7 bottom-radius">
+                <h3>Storage tanks</h3>
+            </div>
+            <p class="float-start quoted-text">STRENGTHENING INDUSTRY, SEAMLESSLY!</p>
+            <div class="btn-box mt-3 float-end products-cta">
+                <a routerLink="/about" class="btn btn-primary px-4 py-2 me-3">
+                    View All Products
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="row pt-q quote-bg">
+        <div class="col-md-6" [appAnimateOnScroll]="'in-view'"  [rootMargin]="'0px 0px -20% 0px'"
+             [threshold]="0.08">
+            <div class="image-container">
+                <img src="assets/images/get-a-quote.png" alt="get a quote" />
+            </div>
+        </div>
+        <div class="col-md-6" [appAnimateOnScroll]="'in-view'"  [rootMargin]="'0px 0px -20% 0px'"
+             [threshold]="0.08">
+            <get-a-quote></get-a-quote>
+        </div>
+    </div>
+</div>
