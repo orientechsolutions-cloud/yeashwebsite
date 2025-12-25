@@ -21,7 +21,7 @@
 
         <!-- Home (from TOP_NAV_LINKS[0]) if you want it separate -->
         <li class="nav-item">
-          <a class="nav-link" routerLink="/">Home</a>
+          <a class="nav-link" routerLink="/home" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Home</a>
         </li>
 
         <!-- PRODUCTS -->
@@ -38,7 +38,7 @@
                 <h6 class="fw-bold mb-3">Download Catlogue</h6>
                 <div class="product-img-box">
                   <div class="div-sec-2" *ngFor="let item of catalogueItems">
-                    <a href="javascript:;">
+                    <a  [href]="item.urlLink" download="Proposed_Filename">
                       <img [src]="item.image" [alt]="item.alt">
                     </a>
                   </div>
@@ -67,7 +67,7 @@
           [ngClass]="{'ms-lg-3': i === topNavLinks.length - 1}"
           [hidden]="link.label === 'Home' && i === 0 || link.label === 'Get A Quote'">
 
-          <a class="nav-link" [routerLink]="link.routerLink">
+          <a class="nav-link" [routerLink]="link.routerLink" routerLinkActive="active-link">
             {{ link.label }}
           </a>
         </li>
@@ -76,19 +76,6 @@
         <li class="nav-item">
           <a class="btn btn-primary px-3 mt-3 mt-lg-0" routerLink="/quote">Get A Quote</a>
         </li>
-
-
-        <!-- <li class="nav-item">
-          <a class="nav-link" routerLink="about-us">About Us</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" routerLink="contact-us">Contact Us</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="btn btn-primary px-3 mt-3 mt-lg-0" routerLink="/quote">Get A Quote</a>
-        </li> -->
 
       </ul>
     </div>

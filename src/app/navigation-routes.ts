@@ -13,6 +13,7 @@ export interface MegaMenuSection {
 export interface CatalogueItem {
   image: string;
   alt: string;
+  urlLink: string;
 }
 
 // Top bar items (Home, About, Contact, etc.)
@@ -25,14 +26,14 @@ export const TOP_NAV_LINKS: NavLink[] = [
 
 // Catalogue images
 export const CATALOGUE_ITEMS: CatalogueItem[] = [
-  { image: 'assets/images/brochure-1.png', alt: 'Brochure 1' },
-  { image: 'assets/images/brochure-2.png', alt: 'Brochure 2' },
+  { image: 'assets/images/brochure-1.png', alt: 'Brochure 1', urlLink: 'assets/images/pdf/Yas-Engineering-Catloue-1.pdf' },
+  { image: 'assets/images/brochure-2.png', alt: 'Brochure 2', urlLink: 'assets/images/pdf/Yas-Engineering-Catloue-2.pdf'  },
 ];
 
 // Mega menu sections
 export const MEGA_MENU_SECTIONS: MegaMenuSection[] = [
   {
-    title: 'Chemical Products',
+    title: 'Chemical Equipment',
     links: [
       { label: 'Reactors', routerLink: '/products/chemical-products/reactors' },
       { label: 'Receiver & Storage tanks', routerLink: '/products/chemical-products/receiver-and-storage' },
@@ -48,15 +49,15 @@ export const MEGA_MENU_SECTIONS: MegaMenuSection[] = [
   {
     title: 'CNG casacde',
     links: [
-      { label: 'Type-I', routerLink: '/valves' },
-      { label: 'Type-IV', routerLink: '/pipes' },
+      { label: 'Type-I', routerLink: '/products/cng-cascade/type1' },
+      { label: 'Type-IV', routerLink: '/products/cng-cascade/type4' },
     ],
   },
   {
     title: 'Mechanical Products',
     links: [
-      { label: 'Valves', routerLink: '/valves' },
-      { label: 'Pipes & Fittings', routerLink: '/pipes' },
+      // { label: 'Valves', routerLink: '/valves' },
+      { label: 'Pipes & Fittings', routerLink: '/products/mechanical-products/pipesandfittings' },
       { label: 'Machinery Tools', routerLink: '/machines' },
     ],
   },

@@ -94,6 +94,15 @@
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease-in-out;
+  ul{
+    li{
+      a{
+        &.active-link{
+          border-bottom: 2px solid $primary-color;
+        }
+      }
+    }
+  }
 
   &.open {
     display: block;

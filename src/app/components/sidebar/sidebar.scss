@@ -3,6 +3,11 @@
     color: #c7eb08 !important;
     /* Add any other styles you want for the active link */
 }
+.list-unstyled{
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+}
 /* HAMBURGER ICON */
 .hamburger {
     width: 40px;
@@ -68,12 +73,21 @@
     .hamburger {
         display: none;
     }
+
+    .sidebar-wrap {
+        height: auto !important;
+    }
     
 }
 
 .sidebar-wrap {
     border-top-left-radius: 3rem;
     border-bottom-right-radius: 3rem;
+    float: left;
+    height: 100px;
+    &.toggleSidebar{
+        height: auto;
+    }
     .title-sidebar {
         color: #c7eb08;
         padding: 1rem 0rem;
@@ -87,7 +101,7 @@
         border-bottom: 1px solid #000;
         margin-bottom: 1.5rem;
         @media (max-width: 767px) {
-            transform: translateX(-110%);
+            transform: translateX(-115%);
             transition: transform 0.3s ease;
             height: 0;
             margin: 0;
@@ -100,14 +114,19 @@
 
         h6 {
             text-transform: uppercase;
+            margin-top: 10px;
         }
         ul {
             margin-left: 20px;
             li {
+                width: 100%;
+                float: left;
                 a {
+                    width: auto;
                     text-decoration: none;
                     position: relative;
                     font-weight: 300;
+                    float: left;
                     &:before {
                         content: "";
                         position: absolute;

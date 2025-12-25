@@ -14,7 +14,7 @@
             <div class="col-md-4" *ngFor="let link of topNavLinks; let i = index" 
                 [ngClass]="{'ms-lg-3': i === topNavLinks.length - 1}"
                 [hidden]="link.label === 'Get A Quote'">
-                <a [routerLink]="link.routerLink">
+                <a [routerLink]="link.routerLink" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">
                     {{ link.label }}
                 </a>
             </div>
@@ -25,7 +25,7 @@
                 <h6>{{ section.title }}</h6>
                 <ul class="list-unstyled">
                     <li *ngFor="let link of section.links;">
-                        <a [routerLink]="link.routerLink" class="mega-item">
+                        <a [routerLink]="link.routerLink" class="mega-item" routerLinkActive="active-link">
                             {{ link.label }}
                         </a>
                     </li>

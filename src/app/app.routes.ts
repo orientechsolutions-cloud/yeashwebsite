@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
     { path: '', loadComponent: () => import('./pages/home/home').then(m => m.Home) },
+    { path: 'home', loadComponent: () => import('./pages/home/home').then(m => m.Home) },
     { path: 'about-us', loadComponent: () => import('./pages/aboutus/aboutus').then(m => m.Aboutus) },
     { path: 'contact-us', loadComponent: () => import('./pages/contactus/contactus').then(m => m.Contactus) },
     { path: 'products/chemical-products/reactors', loadComponent: () => import('./pages/products/chemical-products/reactors/reactors').then(m => m.Reactors) },
@@ -13,6 +14,9 @@ export const routes: Routes = [
     { path: 'products/chemical-products/distillationcolumns', loadComponent: () => import('./pages/products/chemical-products/distillationcolumns/distillationcolumns').then(m => m.Distillationcolumns) },
     { path: 'products/chemical-products/reboilers', loadComponent: () => import('./pages/products/chemical-products/reboilers/reboilers').then(m => m.Reboilers) },
     { path: 'products/chemical-products/centrifuges', loadComponent: () => import('./pages/products/chemical-products/centrifuges/centrifuges').then(m => m.Centrifuges) },
+    { path: 'products/mechanical-products/pipesandfittings', loadComponent: () => import('./pages/products/mechanical-products/pipesandfittings/pipesandfittings').then(m => m.Pipesandfittings) },
+    { path: 'products/cng-cascade/type1', loadComponent: () => import('./pages/products/cng-cascade/type1/type1').then(m => m.Type1) },
+    { path: 'products/cng-cascade/type4', loadComponent: () => import('./pages/products/cng-cascade/type4/type4').then(m => m.Type4) },
 
     { path: '**', redirectTo: '' },
 ];

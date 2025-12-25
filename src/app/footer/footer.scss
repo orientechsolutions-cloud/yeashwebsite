@@ -1,35 +1,34 @@
-h6{
+h6 {
     color: #fff;
 }
-ul{
-    li,a{
+ul {
+    li,
+    a {
         color: #fff;
     }
 }
-.bg-dark{
+.bg-dark {
     background-color: #222 !important;
 }
 
-.border-radius-top{
+.border-radius-top {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border: 3px solid #fff;
 }
 
-.footer-logo-section{
+.footer-logo-section {
     min-height: 300px;
 }
 .footer-brand {
     padding-top: 2rem;
-    img{
+    img {
         height: 150px;
     }
-
 }
 
-.ps{
+.ps {
     padding: 3rem 2rem;
-    
 }
 .footer-quote {
     font-size: 0.8rem;
@@ -42,32 +41,31 @@ ul{
     padding: 2rem;
     padding-bottom: 0;
     left: 0;
-    
 }
 
-.pos-relative{
+.pos-relative {
     position: relative;
 }
 
-.col-md-4{
+.col-md-4 {
     color: #fff;
-    a{
+    a {
         color: #fff;
     }
 }
-.border-top{
+.border-top {
     border-top: 2px solid #fff;
 }
 
-.copyright-text{
+.copyright-text {
     color: #fff;
 }
-.list-menu{
-    h6{
+.list-menu {
+    h6 {
         position: relative;
         float: left;
-        &:before{
-            content: '';
+        &:before {
+            content: "";
             position: absolute;
             bottom: -5px;
             left: 0;
@@ -77,22 +75,28 @@ ul{
         }
     }
 }
-.foot-top-links{
-    a{
+.foot-top-links {
+    a {
         text-decoration: none;
-        &:hover{
+        &.active-link {
+            color: #c7eb08;
+        }
+        &:hover {
             color: #c7eb08;
         }
     }
 }
-.list-unstyled{
+.list-unstyled {
     float: left;
     clear: both;
-    li{
-        a{
+    li {
+        a {
             line-height: 2rem;
             text-decoration: none;
-            &:hover{
+            &.active-link {
+                color: #c7eb08;
+            }
+            &:hover {
                 color: #c7eb08;
             }
         }
