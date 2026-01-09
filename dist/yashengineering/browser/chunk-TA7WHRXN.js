@@ -1,0 +1,1 @@
+import{Ia as t,Ya as o,Za as s,hb as r}from"./chunk-ZCHQTHHN.js";var c=class n{static \u0275fac=function(e){return new(e||n)};static \u0275cmp=t({type:n,selectors:[["app-condenser"]],decls:2,vars:0,template:function(e,i){e&1&&(o(0,"p"),r(1,"condenser works!"),s())},encapsulation:2})};export{c as Condenser};

@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{$a as s,Ia as t,_a as o,jb as r}from"./chunk-I2253AQJ.mjs";import"./chunk-T55IDOPT.mjs";var c=class n{static \u0275fac=function(e){return new(e||n)};static \u0275cmp=t({type:n,selectors:[["app-condenser"]],decls:2,vars:0,template:function(e,i){e&1&&(o(0,"p"),r(1,"condenser works!"),s())},encapsulation:2})};export{c as Condenser};

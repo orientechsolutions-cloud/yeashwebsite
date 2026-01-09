@@ -13,6 +13,6 @@ export default `<!doctype html>
 <style>:root{--font-family-roboto:"Roboto", sans-serif;--font-optical-sizing:auto;--font-weight-regular:400;--font-weight-medium:500;--font-weight-bold:700;--font-style-normal:normal;--font-width:100}:root{--font-size-heading:2.5rem;--font-size-body:1rem}html,body{margin:0;padding:0;box-sizing:border-box;font-family:Roboto,sans-serif;overflow-x:hidden}</style><link rel="stylesheet" href="styles-FGQYBYJY.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-FGQYBYJY.css"></noscript></head>
 <body ngcm="">
   <app-root></app-root>
-<link rel="modulepreload" href="chunk-RPLC7UKN.js"><link rel="modulepreload" href="chunk-J3OH2UUG.js"><link rel="modulepreload" href="chunk-PQ3L6FJV.js"><script src="main-L6JO4TA4.js" type="module"></script></body>
+<link rel="modulepreload" href="chunk-Q6USJVHY.js"><link rel="modulepreload" href="chunk-U2PNGU5E.js"><link rel="modulepreload" href="chunk-ZCHQTHHN.js"><script src="main-JBNJMK25.js" type="module"></script></body>
 </html>
 `;

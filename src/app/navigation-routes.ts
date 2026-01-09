@@ -54,11 +54,18 @@ export const MEGA_MENU_SECTIONS: MegaMenuSection[] = [
     ],
   },
   {
-    title: 'Mechanical Products',
+    title: 'Pipes & Fittings',
     links: [
       // { label: 'Valves', routerLink: '/valves' },
-      { label: 'Pipes & Fittings', routerLink: '/products/mechanical-products/pipesandfittings' },
-      { label: 'Machinery Tools', routerLink: '/machines' },
+      { label: 'BW Seamless & Welded Fittings', routerLink: '/products/pipeFittings/bwseamlessfittings' },
+      { label: 'Socket Weld Fittings', routerLink: '/products/pipeFittings/socketweldandscrewed-fittings' },
+      { label: 'Pipes', routerLink: '/products/pipeFittings/pipes' },
+      { label: 'Flanges', routerLink: '/products/pipeFittings/flanges' },
+      { label: 'Screwed Fittings', routerLink: '/products/pipeFittings/screwedfittings' },
+      { label: 'Olets', routerLink: '/products/pipeFittings/olets' },
+      { label: 'Fittings', routerLink: '/products/pipeFittings/pipesandfittings' },
+
+      // { label: 'Machinery Tools', routerLink: '/machines' },
     ],
   },
 ];

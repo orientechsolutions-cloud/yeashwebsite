@@ -3,6 +3,7 @@
     "/": {},
     "/about-us": {},
     "/contact-us": {},
+    "/home": {},
     "/products/chemical-products/centrifuges": {},
     "/products/chemical-products/chimney": {},
     "/products/chemical-products/condenser": {},
@@ -11,6 +12,9 @@
     "/products/chemical-products/mixer-and-blender": {},
     "/products/chemical-products/reactors": {},
     "/products/chemical-products/reboilers": {},
-    "/products/chemical-products/receiver-and-storage": {}
+    "/products/chemical-products/receiver-and-storage": {},
+    "/products/cng-cascade/type1": {},
+    "/products/cng-cascade/type4": {},
+    "/products/mechanical-products/pipesandfittings": {}
   }
 }

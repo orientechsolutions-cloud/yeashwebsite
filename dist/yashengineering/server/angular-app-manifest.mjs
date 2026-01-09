@@ -8,114 +8,151 @@ export default {
   {
     "renderMode": 2,
     "preload": [
-      "chunk-IYGELCJU.js",
-      "chunk-CJOZHYE4.js",
-      "chunk-Z3GVHI37.js",
-      "chunk-NCK4DQFO.js"
+      "chunk-VPD45M77.js",
+      "chunk-CAB33BOF.js",
+      "chunk-DO5THYQ5.js",
+      "chunk-R4W4CMOA.js"
     ],
     "route": "/"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-BKVVAGIR.js",
-      "chunk-CJOZHYE4.js",
-      "chunk-W3MJENCP.js"
+      "chunk-VPD45M77.js",
+      "chunk-CAB33BOF.js",
+      "chunk-DO5THYQ5.js",
+      "chunk-R4W4CMOA.js"
+    ],
+    "route": "/home"
+  },
+  {
+    "renderMode": 2,
+    "preload": [
+      "chunk-OJJWBVWU.js",
+      "chunk-CAB33BOF.js",
+      "chunk-HO353IC4.js"
     ],
     "route": "/about-us"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-JWHZA5TV.js",
-      "chunk-Z3GVHI37.js",
-      "chunk-W3MJENCP.js"
+      "chunk-ACOIJZUE.js",
+      "chunk-DO5THYQ5.js",
+      "chunk-HO353IC4.js"
     ],
     "route": "/contact-us"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-OTKEG3NS.js",
-      "chunk-4RW3PS3Z.js",
-      "chunk-NCK4DQFO.js",
-      "chunk-W3MJENCP.js"
+      "chunk-DNUA5QQ4.js",
+      "chunk-BFTQBEUB.js",
+      "chunk-R4W4CMOA.js",
+      "chunk-HO353IC4.js"
     ],
     "route": "/products/chemical-products/reactors"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-NSMOYKDO.js",
-      "chunk-4RW3PS3Z.js",
-      "chunk-NCK4DQFO.js",
-      "chunk-W3MJENCP.js"
+      "chunk-P7DPUGU4.js",
+      "chunk-BFTQBEUB.js",
+      "chunk-R4W4CMOA.js",
+      "chunk-HO353IC4.js"
     ],
     "route": "/products/chemical-products/receiver-and-storage"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-3UNSXMVY.js",
-      "chunk-4RW3PS3Z.js",
-      "chunk-NCK4DQFO.js",
-      "chunk-W3MJENCP.js"
+      "chunk-Q5IYZV7W.js",
+      "chunk-BFTQBEUB.js",
+      "chunk-R4W4CMOA.js",
+      "chunk-HO353IC4.js"
     ],
     "route": "/products/chemical-products/mixer-and-blender"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-KEDDJZ4P.js",
-      "chunk-4RW3PS3Z.js",
-      "chunk-NCK4DQFO.js",
-      "chunk-W3MJENCP.js"
+      "chunk-UULFWN3E.js",
+      "chunk-BFTQBEUB.js",
+      "chunk-R4W4CMOA.js",
+      "chunk-HO353IC4.js"
     ],
     "route": "/products/chemical-products/heatexchangers"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-QEBAXSWJ.js"
+      "chunk-TA7WHRXN.js"
     ],
     "route": "/products/chemical-products/condenser"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-E5T7ILPB.js",
-      "chunk-4RW3PS3Z.js",
-      "chunk-NCK4DQFO.js",
-      "chunk-W3MJENCP.js"
+      "chunk-QQEOATPZ.js",
+      "chunk-BFTQBEUB.js",
+      "chunk-R4W4CMOA.js",
+      "chunk-HO353IC4.js"
     ],
     "route": "/products/chemical-products/chimney"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-2RTKYVEM.js",
-      "chunk-4RW3PS3Z.js",
-      "chunk-NCK4DQFO.js",
-      "chunk-W3MJENCP.js"
+      "chunk-2CQOLUAK.js",
+      "chunk-BFTQBEUB.js",
+      "chunk-R4W4CMOA.js",
+      "chunk-HO353IC4.js"
     ],
     "route": "/products/chemical-products/distillationcolumns"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-CQLKOA5O.js",
-      "chunk-4RW3PS3Z.js",
-      "chunk-NCK4DQFO.js",
-      "chunk-W3MJENCP.js"
+      "chunk-IOYZFD4I.js",
+      "chunk-BFTQBEUB.js",
+      "chunk-R4W4CMOA.js",
+      "chunk-HO353IC4.js"
     ],
     "route": "/products/chemical-products/reboilers"
   },
   {
     "renderMode": 2,
     "preload": [
-      "chunk-RLTZBGK4.js"
+      "chunk-OLMY6UUM.js"
     ],
     "route": "/products/chemical-products/centrifuges"
+  },
+  {
+    "renderMode": 2,
+    "preload": [
+      "chunk-SA3JKRFP.js",
+      "chunk-BFTQBEUB.js",
+      "chunk-HO353IC4.js"
+    ],
+    "route": "/products/mechanical-products/pipesandfittings"
+  },
+  {
+    "renderMode": 2,
+    "preload": [
+      "chunk-4SR7Y3ZF.js",
+      "chunk-BFTQBEUB.js",
+      "chunk-HO353IC4.js"
+    ],
+    "route": "/products/cng-cascade/type1"
+  },
+  {
+    "renderMode": 2,
+    "preload": [
+      "chunk-MDXKL5GW.js",
+      "chunk-BFTQBEUB.js",
+      "chunk-HO353IC4.js"
+    ],
+    "route": "/products/cng-cascade/type4"
   },
   {
     "renderMode": 2,
@@ -125,20 +162,24 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 11875, hash: '306dd83a409e4f4f7ece0fa1a6498c46c0ecd6796aa623b183e53e88dc226215', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 11915, hash: '43115e53556cb7ff66ec9662738d66844c20927902094745e7d9ab54d4e1d77e', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 23010, hash: '3902a93a7b37a01587bd8c40bab9be13c70a468bb17cb3a5b12c92bf55afc96c', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'products/chemical-products/mixer-and-blender/index.html': {size: 23010, hash: 'e201c573fca4417797c5ce22ebe1df6a2e6e635754f869cb70dc10a0e445d1da', text: () => import('./assets-chunks/products_chemical-products_mixer-and-blender_index_html.mjs').then(m => m.default)},
-    'products/chemical-products/heatexchangers/index.html': {size: 23010, hash: '859516d98f6d8c7b4e1f6fc14988ee50240e4978e01fc9272abc1704ee7d53c0', text: () => import('./assets-chunks/products_chemical-products_heatexchangers_index_html.mjs').then(m => m.default)},
-    'about-us/index.html': {size: 22958, hash: '5d89fc457113867dbaef41fbfe829d7eb08fd3f1a8bacb0f99f510e02e22ce93', text: () => import('./assets-chunks/about-us_index_html.mjs').then(m => m.default)},
-    'products/chemical-products/reboilers/index.html': {size: 23010, hash: 'aa70c50b474b2a7b19358a3892d9c31acc495666e0c50c9fd69cdab9d21bfe8d', text: () => import('./assets-chunks/products_chemical-products_reboilers_index_html.mjs').then(m => m.default)},
-    'contact-us/index.html': {size: 22958, hash: '4918f29d5e2be363dad48c171cf2ba2689539d4d9121bd0988e91d06657969f6', text: () => import('./assets-chunks/contact-us_index_html.mjs').then(m => m.default)},
-    'products/chemical-products/receiver-and-storage/index.html': {size: 23010, hash: '62cb6c457f5d60d876870cf0111ac1fcba64f1552bd21195ad7b3e9994fd78cc', text: () => import('./assets-chunks/products_chemical-products_receiver-and-storage_index_html.mjs').then(m => m.default)},
-    'products/chemical-products/chimney/index.html': {size: 23010, hash: '92d4b5e916e1566a4dc5ad8aeaf102e9cc7d3910cdfb358af4d0d3553f0d6b9f', text: () => import('./assets-chunks/products_chemical-products_chimney_index_html.mjs').then(m => m.default)},
-    'products/chemical-products/distillationcolumns/index.html': {size: 23010, hash: 'a756ef382668c08d144d08593f62a03919fadc5af0e731dfe81ed9eede7b71c7', text: () => import('./assets-chunks/products_chemical-products_distillationcolumns_index_html.mjs').then(m => m.default)},
-    'products/chemical-products/reactors/index.html': {size: 23010, hash: '8d4762d5192dbf42de7fe4d0ef9977d96005a3047ed3e3d55a3fc2bae709a6f4', text: () => import('./assets-chunks/products_chemical-products_reactors_index_html.mjs').then(m => m.default)},
-    'products/chemical-products/centrifuges/index.html': {size: 22854, hash: 'd0326b9b6dcae746a8fcea522bcd9e4d70d8f5b09d1528abe27cefe6fde86354', text: () => import('./assets-chunks/products_chemical-products_centrifuges_index_html.mjs').then(m => m.default)},
-    'products/chemical-products/condenser/index.html': {size: 22854, hash: '23a76f622743ebc823699455a3b26d605b6da313daccc1c2a84d8b64df43acd2', text: () => import('./assets-chunks/products_chemical-products_condenser_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 11875, hash: '485e091dbf686f218266e5ad0110005a55f0c43fc849b4a4199a14a49a7f2efa', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 11915, hash: '14a7ccd351db448269e3b81deae4ca766f149f08ea09c868cf1971d87fbd0bd4', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'products/chemical-products/mixer-and-blender/index.html': {size: 23286, hash: '9dafeca1d6ae4718c086c4292d4dcd4cd8519e2053bada8b794cc3eb86636795', text: () => import('./assets-chunks/products_chemical-products_mixer-and-blender_index_html.mjs').then(m => m.default)},
+    'products/chemical-products/chimney/index.html': {size: 23286, hash: '90c9d46d716599696eabeecfccdd1b8846b7e359cc4e2b566912a70a65a1f7c7', text: () => import('./assets-chunks/products_chemical-products_chimney_index_html.mjs').then(m => m.default)},
+    'products/chemical-products/reboilers/index.html': {size: 23286, hash: '1d26d96854ebca81d9e48a37d9127f322072b76720359f2689d0aa596759a168', text: () => import('./assets-chunks/products_chemical-products_reboilers_index_html.mjs').then(m => m.default)},
+    'products/mechanical-products/pipesandfittings/index.html': {size: 23234, hash: 'efb5bd4ed8166643759287990c85cf653cce80054d22fae52ce269967be17bba', text: () => import('./assets-chunks/products_mechanical-products_pipesandfittings_index_html.mjs').then(m => m.default)},
+    'about-us/index.html': {size: 23234, hash: '331ab6a166e3e347e68546992855972221682e8e74d769ca3766f0fbdd3167e1', text: () => import('./assets-chunks/about-us_index_html.mjs').then(m => m.default)},
+    'products/chemical-products/reactors/index.html': {size: 23286, hash: 'da07acd7a1d4582c4669165223b5e2985be12a2782d4d814b19ecf09c09b47a0', text: () => import('./assets-chunks/products_chemical-products_reactors_index_html.mjs').then(m => m.default)},
+    'products/chemical-products/condenser/index.html': {size: 23130, hash: '1cd65a0a558d8d3c3423022a408749ffe7ad16a145c2f2e5de6e68a62b4f7dfa', text: () => import('./assets-chunks/products_chemical-products_condenser_index_html.mjs').then(m => m.default)},
+    'home/index.html': {size: 23286, hash: '6a319329b67b5158691bd8d865ecd96e38aa5edf5d97c309a35ac5938ab34356', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
+    'products/chemical-products/centrifuges/index.html': {size: 23130, hash: '23213ac44b0f54f83d5bc0ee3dfd37003c1ad89e162e1ef1082742df55864f91', text: () => import('./assets-chunks/products_chemical-products_centrifuges_index_html.mjs').then(m => m.default)},
+    'products/chemical-products/heatexchangers/index.html': {size: 23286, hash: '7f104723a8c7ceb399f993dbc33fe8596f64fd662e820c561b424690d853cae2', text: () => import('./assets-chunks/products_chemical-products_heatexchangers_index_html.mjs').then(m => m.default)},
+    'products/cng-cascade/type4/index.html': {size: 23234, hash: 'b821878a29a55c22718efa527a072000a5856af269055a8850ad03ffe52cc805', text: () => import('./assets-chunks/products_cng-cascade_type4_index_html.mjs').then(m => m.default)},
+    'products/cng-cascade/type1/index.html': {size: 23234, hash: '8acb3709a4b5f8a55b9cf83727f08453c88368e0ed8f09965c6d50022aa60fac', text: () => import('./assets-chunks/products_cng-cascade_type1_index_html.mjs').then(m => m.default)},
+    'products/chemical-products/distillationcolumns/index.html': {size: 23286, hash: '70498a7df86f244d1cb4dcddee92b5637835f6710f87d27ee65086f114029284', text: () => import('./assets-chunks/products_chemical-products_distillationcolumns_index_html.mjs').then(m => m.default)},
+    'contact-us/index.html': {size: 23234, hash: '119631cac81c8a4f4f7b2df8b7cfd333fda6f4c6a781e10a51799890ab32fd21', text: () => import('./assets-chunks/contact-us_index_html.mjs').then(m => m.default)},
+    'products/chemical-products/receiver-and-storage/index.html': {size: 23286, hash: 'c0a8f19a90d39e50f5014d5b906232fefc30254253fe5702cf82dc9b07636f7f', text: () => import('./assets-chunks/products_chemical-products_receiver-and-storage_index_html.mjs').then(m => m.default)},
+    'index.html': {size: 23286, hash: '6a319329b67b5158691bd8d865ecd96e38aa5edf5d97c309a35ac5938ab34356', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-FGQYBYJY.css': {size: 1500, hash: 'BLwEJ8u/q+A', text: () => import('./assets-chunks/styles-FGQYBYJY_css.mjs').then(m => m.default)}
   },
 };
