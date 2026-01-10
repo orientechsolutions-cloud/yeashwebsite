@@ -61,6 +61,7 @@ export class Header {
     link.download = nameData ? nameData : 'catalogue.pdf';
     link.click();
   }
+  // checlk for mobile and close menu
 
   closeMenu() {
     if (this.isMobile) {
