@@ -26,8 +26,8 @@ export const TOP_NAV_LINKS: NavLink[] = [
 
 // Catalogue images
 export const CATALOGUE_ITEMS: CatalogueItem[] = [
-  { image: 'assets/images/brochure-1.png', alt: 'Brochure 1', urlLink: 'assets/images/pdf/Yas-Engineering-Catloue-1.pdf' },
-  { image: 'assets/images/brochure-2.png', alt: 'Brochure 2', urlLink: 'assets/images/pdf/Yas-Engineering-Catloue-2.pdf'  },
+  { image: 'assets/images/brochure-1.png', alt: 'Brochure 1', urlLink: 'assets/pdf/Yas-Engineering-Catloue-1.pdf' },
+  { image: 'assets/images/brochure-2.png', alt: 'Brochure 2', urlLink: 'assets/pdf/Yas-Engineering-Catloue-2.pdf'  },
 ];
 
 // Mega menu sections

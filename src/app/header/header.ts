@@ -49,8 +49,23 @@ export class Header {
   toggleMegaMenu() {
     if (this.isMobile) this.isMegaMenuOpen = !this.isMegaMenuOpen;
   }
-  
+
   toggleMainMenu() {
-    this.isMainMenuOpen = !this.isMainMenuOpen; 
+    this.isMainMenuOpen = !this.isMainMenuOpen;
+  }
+
+  downloadPdf(linkUrl: string) {
+    const link = document.createElement('a');
+    const nameData = linkUrl.split('/').pop();
+    link.href = linkUrl;
+    link.download = nameData ? nameData : 'catalogue.pdf';
+    link.click();
+  }
+
+  closeMenu() {
+    if (this.isMobile) {
+      this.isMegaMenuOpen = false;
+      this.isMainMenuOpen = false;
+    }
   }
 }

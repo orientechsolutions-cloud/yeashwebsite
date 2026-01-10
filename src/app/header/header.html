@@ -38,7 +38,7 @@
                 <h6 class="fw-bold mb-3">Download Catlogue</h6>
                 <div class="product-img-box">
                   <div class="div-sec-2" *ngFor="let item of catalogueItems">
-                    <a  [href]="item.urlLink" download="Proposed_Filename">
+                    <a  href="javascript:;" (click)="downloadPdf(item.urlLink)">
                       <img [src]="item.image" [alt]="item.alt">
                     </a>
                   </div>
@@ -51,7 +51,7 @@
                 <h6 class="fw-bold text-dark mb-3">{{ section.title }}</h6>
                 <ul class="list-unstyled">
                   <li *ngFor="let link of section.links;">
-                    <a [routerLink]="link.routerLink" class="mega-item">
+                    <a [routerLink]="link.routerLink" class="mega-item" (click)="closeMenu()">
                       {{ link.label }}
                     </a>
                   </li>
