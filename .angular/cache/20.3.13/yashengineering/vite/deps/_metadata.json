@@ -1,49 +1,61 @@
 {
-  "hash": "5d57a3ef",
-  "configHash": "a5bb1f6c",
-  "lockfileHash": "51f886b7",
-  "browserHash": "f18e0b67",
+  "hash": "bd9491ec",
+  "configHash": "1551cd7a",
+  "lockfileHash": "b9ed64d5",
+  "browserHash": "9ee5714a",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "27481e7d",
+      "fileHash": "ee459e11",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "7b9588e7",
+      "fileHash": "db1221c3",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "d45124d8",
+      "fileHash": "dbe0ea3e",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "649649b3",
+      "fileHash": "c30c5208",
       "needsInterop": false
     },
     "swiper/element/bundle": {
       "src": "../../../../../../node_modules/swiper/swiper-element-bundle.mjs",
       "file": "swiper_element_bundle.js",
-      "fileHash": "a7318c04",
+      "fileHash": "17ead9f5",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "460d2dc9",
+      "needsInterop": false
+    },
+    "@emailjs/browser": {
+      "src": "../../../../../../node_modules/@emailjs/browser/es/index.js",
+      "file": "@emailjs_browser.js",
+      "fileHash": "e1fbd6ee",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-YF5IXPDH": {
-      "file": "chunk-YF5IXPDH.js"
+    "chunk-YLSO7LLX": {
+      "file": "chunk-YLSO7LLX.js"
     },
-    "chunk-ZHYSVIU6": {
-      "file": "chunk-ZHYSVIU6.js"
+    "chunk-PNDSUITN": {
+      "file": "chunk-PNDSUITN.js"
     },
-    "chunk-OWKGWBMR": {
-      "file": "chunk-OWKGWBMR.js"
+    "chunk-GXK5ZLRH": {
+      "file": "chunk-GXK5ZLRH.js"
     },
     "chunk-GOMI4DH3": {
       "file": "chunk-GOMI4DH3.js"

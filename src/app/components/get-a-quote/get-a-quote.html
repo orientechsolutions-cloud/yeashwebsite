@@ -6,29 +6,55 @@
     </p>
 </div>
 <div class="quote-form">
-    <form>
+    <form [formGroup]="quoteForm!">
         <div class="form-group">
             <label for="exampleInputEmail1">Name</label>
-            <input type="text" class="form-control" placeholder="Enter Name">
+            <input type="text" class="form-control" formControlName="name" placeholder="Enter Name">
+            <small class="error" *ngIf="quoteForm?.get('name')?.hasError('required');"> </small>
+            <div *ngIf="quoteForm?.get('name')?.invalid && (quoteForm?.get('name')?.dirty || quoteForm?.get('name')?.touched)">
+                <small class="error" *ngIf="quoteForm?.get('name')?.hasError('required')">
+                    Name is required.
+                </small>
+                
+            </div>
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" placeholder="Enter email">
+            <input type="email" class="form-control" formControlName="email" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                 else.</small>
+            <div *ngIf="quoteForm?.get('email')?.invalid && (quoteForm?.get('email')?.dirty || quoteForm?.get('email')?.touched)">
+                <small class="error" *ngIf="quoteForm?.get('email')?.hasError('required')">
+                    Email is required.
+                </small>
+                <small class="error" *ngIf="quoteForm?.get('email')?.hasError('email')">
+                    Enter a valid email address.
+                </small>
+            </div>
+            
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Phone</label>
-            <input type="number" class="form-control" placeholder="Enter Phone">
+            <input type="number" class="form-control" formControlName="phone" placeholder="Enter Phone">
             <small id="emailHelp" class="form-text text-muted">We'll never share your Phone with anyone
                 else.</small>
+            <div *ngIf="quoteForm?.get('phone')?.invalid && (quoteForm?.get('phone')?.dirty || quoteForm?.get('phone')?.touched)">
+                <small class="error" *ngIf="quoteForm?.get('phone')?.hasError('required')">
+                    Name is required.
+                </small>
+            </div>
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Message</label>
-            <textarea class="form-control" placeholder="Enter email"></textarea>
+            <textarea class="form-control" formControlName="message" placeholder="Message"></textarea>
+             <div *ngIf="quoteForm?.get('message')?.invalid && (quoteForm?.get('message')?.dirty || quoteForm?.get('message')?.touched)">
+                <small class="error" *ngIf="quoteForm?.get('message')?.hasError('required')">
+                    Name is required.
+                </small>
+            </div>
         </div>
         <div class="form-group">
-            <button type="button" class="btn btn-primary px-4 py-2 me-3">Submit</button>
+            <button type="button" class="btn btn-primary px-4 py-2 me-3" (click)="onSubmit()">Submit</button>
         </div>
     </form>
 </div>
