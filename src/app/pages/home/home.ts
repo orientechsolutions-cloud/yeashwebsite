@@ -3,10 +3,11 @@ import { HeroCarousel } from "../../components/hero-carousel/hero-carousel";
 import { CommonModule } from '@angular/common';
 import { AnimateOnScroll } from '../../Directives/animate-on-scroll';
 import { GetAQuote } from '../../components/get-a-quote/get-a-quote';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [HeroCarousel, CommonModule, GetAQuote, AnimateOnScroll],
+  imports: [HeroCarousel, CommonModule, GetAQuote, AnimateOnScroll, RouterLink],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
