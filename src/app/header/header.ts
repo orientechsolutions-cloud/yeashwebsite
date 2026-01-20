@@ -9,10 +9,11 @@ import {
   CatalogueItem,
 } from '../navigation-routes';
 import { CommonModule } from '@angular/common';
+import { GetAQuote } from "../components/get-a-quote/get-a-quote";
 @Component({
   selector: 'app-header',
   standalone: true,          // ✅ REQUIRED
-  imports: [RouterModule, CommonModule],
+  imports: [RouterModule, CommonModule, GetAQuote],
   templateUrl: './header.html',
   styleUrls: ['./header.scss'],
 })
@@ -20,6 +21,15 @@ export class Header {
   isMegaMenuOpen = false;
   isMainMenuOpen = false;
   isMobile = false;
+  isModalOpen:boolean=false;
+
+  openModal() {
+    this.isModalOpen = true;
+  }
+
+  closeModal() {
+    this.isModalOpen = false;
+  }
 
   // imported data
   topNavLinks: NavLink[] = TOP_NAV_LINKS;

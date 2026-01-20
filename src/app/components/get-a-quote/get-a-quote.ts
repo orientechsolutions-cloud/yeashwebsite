@@ -28,6 +28,8 @@ export class GetAQuote {
       .then(
         (response) => {
           console.log('SUCCESS!', response.status, response.text);
+          alert('Your quote request has been sent successfully!');
+          // Reset the form after successful submission
           this.quoteForm?.reset();
         },
         (err) => {
