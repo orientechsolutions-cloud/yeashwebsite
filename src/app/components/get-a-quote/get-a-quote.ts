@@ -1,43 +1,47 @@
 import { CommonModule } from '@angular/common';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { ReactiveFormsModule, FormGroup, FormBuilder, Validators } from '@angular/forms';
 import emailjs from '@emailjs/browser';
 @Component({
   selector: 'get-a-quote',
-  imports: [ReactiveFormsModule,CommonModule],
+  imports: [ReactiveFormsModule, CommonModule, HttpClientModule],
   templateUrl: './get-a-quote.html',
   styleUrl: './get-a-quote.scss',
 })
 export class GetAQuote {
-  quoteForm?:FormGroup;
-  constructor(private fb : FormBuilder) {
-    this.quoteForm = this.fb.group({
-      name:['',Validators.required],
-      email:['',[Validators.required,Validators.email]],
-      phone:['',Validators.required],
-      message:['',Validators.required]
-    });
-  }
-  onSubmit(){
-    if(this.quoteForm?.valid){
-      console.log(this.quoteForm.value);
-      emailjs
-      .send('service_54apxfs', 'template_z598sz9', this.quoteForm.value, {
-        publicKey: '15uU6geX-qvTh_v5N',
-      })
-      .then(
-        (response) => {
-          console.log('SUCCESS!', response.status, response.text);
-          alert('Your quote request has been sent successfully!');
-          // Reset the form after successful submission
-          this.quoteForm?.reset();
-        },
-        (err) => {
-          console.log('FAILED...', err);
-        },
-      );
+  quoteForm?: FormGroup;
+  constructor(private fb: FormBuilder, private http: HttpClient) 
+    {
+      this.quoteForm = this.fb.group({
+        name: ['', Validators.required],
+        email: ['', [Validators.required, Validators.email]],
+        phone: ['', Validators.required],
+        message: ['', Validators.required]
+      });
     }
-  }
-  
+    onSubmit(){
+      if (this.quoteForm?.valid) {
+        // alert('Your quote request has been sent successfully!');
+        // console.log(this.quoteForm.value);
+        // this.http.post( 'https://emails.orientechsolutions.cloud/yash/api', this.quoteForm.value)
+        emailjs
+        .send('service_54apxfs', 'template_z598sz9', {to_email: 'sagemanufacturingproducts@gmail.com',...this.quoteForm.value}, {
+          publicKey: '15uU6geX-qvTh_v5N',
+        })
+        .then(
+          (response) => {
+            console.log('SUCCESS!', response.status, response.text);
+            alert('Your quote request has been sent successfully!');
+            // Reset the form after successful submission
+            this.quoteForm?.reset();
+          },
+          (err) => {
+            console.log('FAILED...', err);
+          },
+        )
+      }
+    }
 
-}
+
+  }
