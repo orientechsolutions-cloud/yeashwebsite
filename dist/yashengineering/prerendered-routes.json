@@ -15,6 +15,12 @@
     "/products/chemical-products/receiver-and-storage": {},
     "/products/cng-cascade/type1": {},
     "/products/cng-cascade/type4": {},
-    "/products/mechanical-products/pipesandfittings": {}
+    "/products/pipeFittings/bwseamlessfittings": {},
+    "/products/pipeFittings/flanges": {},
+    "/products/pipeFittings/olets": {},
+    "/products/pipeFittings/pipes": {},
+    "/products/pipeFittings/pipesandfittings": {},
+    "/products/pipeFittings/screwedfittings": {},
+    "/products/pipeFittings/socketweldandscrewed-fittings": {}
   }
 }
